@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+<head>
+    <title>21 Savage Fan Site</title>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="container">
+
+    <div class="page-header text-center">
+        <a href="/profile">Profile</a>
+        <a href="/feed">Feed</a>
+        <a href="/logout" class="btn btn-default btn-sm">Logout</a>
+    </div>
+
+  
+
+    <div class="row">
+
+       
+        <div class="col-sm-6">
+          <h3>Posts</h3>
+          <ul class="messages">
+          <% for(var i=0; i<posts.length; i++) {%>
+            <section>
+             
+              <img src="../<%= posts[i].img %>" alt="">
+              <p><%= posts[i].user %></p>
+              <h4><%= posts[i].caption %></h4>
+              <i class="fas fa-heart" data-id="<%= posts[i]._id %>"></i>
+              <span><%= posts[i].likes %></span>
+              
+              <section> 
+             
+
+                <% for (let j = 0; j <comments.length; j++) {%>
+                  <li class="comments">
+                     <h4><%= comments[j].comment %></h4>
+                     <p> <%= comments[j].user%> </p>
+                   </li>
+                 </ul>
+                 <% } %>
+                <form action="../makeComment/<%= posts[i]._id %>" method="POST">
+                  <label for="comment">Make a Comment</label>
+                  <input type="text" name="comment" id="comment">
+                  <button type="submit" id="submit">Submit</button>
+                </form>
+              </section>
+            </section>
+          <% } %>
+          </ul>
+
+</div>
+
+<script src="../main.js"></script>
+
+</body>
+</html>

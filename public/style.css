@@ -1,0 +1,17 @@
+body{
+  padding-top:80px;
+  word-wrap:break-word;
+  background-image: url('images/background.jpeg');
+}
+img{
+  height: 400px;
+}
+.fa-heart {
+  cursor: pointer;
+}
+.box{
+  width: 50%;
+  background-color: rgb(255, 255, 255, .75);
+  border-radius: 5%;
+  margin: 0 auto;
+}
