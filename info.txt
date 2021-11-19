@@ -1,0 +1,14 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: Bodonitown
+font link: https://www.fontsquirrel.com/fonts/Bodonitown
+font author: Manfred Klein
+font author site: http://manfred-klein.ina-mar.com/
+Slogan Font: Questrial-Regular.otf
+
+icon designer: Felix Koutchinski
+icon designer link: /koutchinski
+        
+{"bg":"transparent","icon-gradient-0":"#41E296","icon-gradient-1":"#00C4EE","font":"#000000","slogan":"#141414"}
+      
