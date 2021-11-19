@@ -9,9 +9,21 @@ body{
   background-size: cover;
 
 }
+h3{
+  margin-left: 30px;
+}
 img{
   height: 400px;
   
+}
+li{
+  list-style: none;
+}
+.w-96{
+  width: 35rem;
+}
+.h-96{
+  height: 25rem;
 }
 .fa-heart {
   cursor: pointer;
@@ -22,6 +34,14 @@ img{
   border-radius: 5%;
   margin: 0 auto;
 }
+.feedBox{
+  width: 50%;
+  background-color: rgb(255, 255, 255, .75);
+  border-radius: 20px;
+  margin: 0 auto;
+  margin-top: 35px;
+}
+
 
 @media only screen and (max-width: 1400px) {
   .box{
