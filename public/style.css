@@ -2,9 +2,12 @@ body{
   padding-top:80px;
   word-wrap:break-word;
   background-image: url('images/background.jpeg');
+  background-size: 100vw 100vh;
+ 
 }
 img{
   height: 400px;
+  
 }
 .fa-heart {
   cursor: pointer;
@@ -14,4 +17,14 @@ img{
   background-color: rgb(255, 255, 255, .75);
   border-radius: 5%;
   margin: 0 auto;
+}
+
+@media only screen and (max-width: 1400px) {
+  .box{
+    width: 650px;
+    background-color: rgb(255, 255, 255, .75);
+    border-radius: 5%;
+    margin: 0 auto;
+  }
+
 }
