@@ -2,6 +2,7 @@ body{
   padding-top:80px;
   word-wrap:break-word;
   background-image: url('images/background.jpeg');
+  background-size: cover;
 }
 img{
   height: 400px;
