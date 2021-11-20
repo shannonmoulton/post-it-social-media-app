@@ -22,4 +22,4 @@ edited the post page to show a single "card" with the same background box as the
 
 bugs i noticed:
 any wide images past 600px wide overflow out the card container in the post page.
-i know instagram limits image sizes, or we need to abandon the card background for the post unless we resize images but that distorts the images or crops images.
+i know instagram limits image sizes, or we need to abandon the card background for the post unless we resize images but that distorts the images or crops images. 

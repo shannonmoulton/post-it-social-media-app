@@ -15,7 +15,9 @@ ul {
 }
 
 input {
-  width: 40%;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .well {
@@ -24,6 +26,7 @@ input {
 
 .caption {
  font-size: 24px;
+ margin-bottom: 10px;
 }
 img{
   height: 400px;
@@ -49,12 +52,19 @@ img{
   margin-bottom: 15px;
 }
 
-@media only screen and (max-width: 1400px) {
+.btn-purple {
+  color: white;
+  background-color: purple;
+  font-size: 24px;
+  border: 0;
+}
+
+@media only screen and (max-width: 2500px) {
   .box{
-    width: 650px;
-    background-color: rgb(255, 255, 255, .75);
-    margin: 0 auto;
-    border-radius: 3%;
+    width: 100%;
+
   }
 
 }
+
+
