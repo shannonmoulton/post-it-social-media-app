@@ -2,23 +2,15 @@ body{
   padding-top:80px;
   word-wrap:break-word;
   background-image: url('images/background.jpeg');
-
   background-size: 100vw 100vh;
- 
-
   background-size: cover;
-<<<<<<< HEAD
   min-height: 100vh;
-=======
-
->>>>>>> bd166b7a024132a0c8eba5702332bbf96a122dce
 }
 h3{
   margin-left: 30px;
 }
 img{
   height: 400px;
-  
 }
 li{
   list-style: none;
@@ -38,8 +30,7 @@ li{
   border-radius: 5%;
   margin: 0 auto;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 /**************************************
 *         LOGIN / SIGNUP PAGE
 ***************************************/
@@ -178,6 +169,7 @@ h1 {
     margin: 0;
     max-width: 100%;
   }
+  
 .feedBox{
   width: 50%;
   background-color: rgb(255, 255, 255, .75);
@@ -192,6 +184,4 @@ h1 {
     border-radius: 5%;
     margin: 0 auto;
   }
-
-
 }
