@@ -1,11 +1,12 @@
 let likes = document.querySelectorAll(".fa-heart")
-let submitbtn= document.querySelector('#submit')
+
 
 Array.from(likes).forEach(function(element) {
       element.addEventListener('click', function(e){
         // post's name + caption match
         // get like count
-         const likes = parseFloat(this.parentNode.childNodes[7].innerText)
+        console.log(this.parentNode.childNodes)
+         const likes = parseFloat(this.parentNode.childNodes[8].innerText)
          const id = e.target.dataset.id
 
          console.log(likes)

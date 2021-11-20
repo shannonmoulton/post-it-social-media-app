@@ -34,7 +34,13 @@ li{
   border-radius: 3%;
   margin: 0 auto;
 }
-<<<<<<< HEAD
+.feedBox{
+  width: 50%;
+  background-color: rgb(255, 255, 255, .75);
+  border-radius: 20px;
+  margin: 0 auto;
+  margin-top: 35px;
+}
 
 /**************************************
 *         LOGIN / SIGNUP PAGE
@@ -175,15 +181,7 @@ h1 {
     max-width: 100%;
   }
 
-=======
->>>>>>> 8cea6296efcc5eaf68cdd0563b718a09d74422bd
-.feedBox{
-  width: 50%;
-  background-color: rgb(255, 255, 255, .75);
-  border-radius: 20px;
-  margin: 0 auto;
-  margin-top: 35px;
-}
+
 
 
 @media only screen and (max-width: 1400px) {
@@ -194,4 +192,5 @@ h1 {
     margin: 0 auto;
   }
 
+}
 }
