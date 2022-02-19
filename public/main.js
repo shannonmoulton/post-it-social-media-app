@@ -1,6 +1,5 @@
 let likes = document.querySelectorAll(".fa-heart")
 
-
 Array.from(likes).forEach(function(element) {
       element.addEventListener('click', function(e){
         // post's name + caption match
